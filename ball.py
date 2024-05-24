@@ -11,6 +11,7 @@ class Create(Turtle):
         for t in p12:
             if abs(t.xcor() - self.xcor()) <= 10 and abs(t.ycor() - self.ycor()) <= 45:
                 self.setheading(90 + self.heading())
+                #positive
                 return "hit"
 
         if self.ycor() > 285 or self.ycor() < -285:
