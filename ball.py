@@ -6,7 +6,7 @@ class Create(Turtle):
         self.shape("circle")
         self.color("white")
         self.penup()
-#rgjhv
+#kkk
     def bounce(self, p12):
         for t in p12:
             if abs(t.xcor() - self.xcor()) <= 10 and abs(t.ycor() - self.ycor()) <= 45:
